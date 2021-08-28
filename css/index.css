@@ -1,0 +1,123 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 10px 20px;
+  padding: 0px;
+  background: url("/resources/workout.jpg");
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  /* display: inline-block; */
+  /* border: 2px red solid; */
+  /* position: absolute;
+    top: 20px;
+    left: 20px; */
+}
+
+.header-left img {
+  height: 40px;
+  width: 40px;
+  filter: invert();
+  padding-left: 30%;
+}
+
+.header-left div {
+  text-align: center;
+  font-size: 12px;
+}
+.header-center {
+  display: flex;
+  /* border: 2px green solid; */
+  /* width: 50%; */
+  /* margin: 20px auto; */
+}
+.header-right {
+  /* position: absolute; */
+  /* top: 20px; */
+  /* right: 20px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+
+  /* border : 2px solid white; */
+}
+
+.header-center li {
+  /* display: inline-block; */
+  font-size: 20px;
+  list-style-type: none;
+}
+.header-center li a {
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.header-center li a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.btn {
+  background: top;
+  height: 40px;
+  width: 40px;
+  /* background: rgb(247, 244, 244); */
+  /* box-shadow: none; */
+  border: 0px;
+  cursor: pointer;
+}
+.btn img {
+  height: 100%;
+  width: 100%;
+}
+
+.formContainer {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  margin: 4vw 6vw;
+  padding: 1vw;
+  width: 30vw;
+  align-items: center;
+  background-color: #24242466;
+}
+
+#form input {
+  padding: 4px;
+  margin: 10px;
+  /* border: 2px solid black; */
+  width: 330px;
+  font-size: 16px;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+
+#form .btn {
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+    width: 340px;
+    margin: 10px;
+    background-color: #939897;
+}
+
+
+.formContainer h1{
+    color: #f64545;
+    border-radius: 10px;
+    padding: 10px;
+    width: 340px;
+    margin: 10px;
+    text-align: center;
+}
